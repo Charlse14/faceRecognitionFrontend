@@ -1,0 +1,26 @@
+.bounding-box{
+	position: absolute;
+	box-shadow: 0 0 0 3px #149df2 inset;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.feature{
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+@media only screen and (max-width: 1000px) {
+	.feature{
+		flex-direction: column;
+		align-items: center; 
+	}	
+}
+
+.face-boxes{
+	display: flex;
+	flex-wrap: wrap;
+}
